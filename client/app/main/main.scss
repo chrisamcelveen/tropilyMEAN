@@ -1,0 +1,36 @@
+#video_header {
+  height: auto;
+  width: 100% !important;
+  margin-top: -4.75em;
+  background: rgba( 0, 0, 0, 1.00);
+}
+
+#video_header video {
+  margin: 0 !important;
+  width: 100% !important;
+  height: 620px !important;
+}
+
+.search-navigation-positioning {
+  min-height: 0px;
+}
+
+.search-navigation-wrapper {
+  position: relative;
+}
+
+.search-navigation {
+  position: absolute;
+  background: rgba( 255, 255, 255, 0.60);
+  border-radius: 4px;
+  padding: 15px 0px 0px 0px;
+  top: -530px;
+  z-index: 9998;
+}
+
+.search-navigation label {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
